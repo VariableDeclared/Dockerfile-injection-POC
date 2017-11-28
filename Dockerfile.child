@@ -1,0 +1,13 @@
+FROM injection-poc
+
+
+# do setup
+
+# Set prescribed ENV 
+# DOCKER_PROGRAM_TO_RUN
+
+COPY program.sh /program_folder/program.sh
+RUN chmod 755 /program_folder/program.sh
+
+ENV DOCKER_PROGRAM_TO_RUN=/program_folder/program.sh
+

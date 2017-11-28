@@ -1,0 +1,2 @@
+Dockerfile from: 
+https://github.com/docker-library/openjdk/blob/b4f29ba829765552239bd18f272fcdaf09eca259/7-jre/alpine/Dockerfile
